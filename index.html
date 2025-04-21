@@ -96,18 +96,18 @@
     <p>📍 Sandton, Johannesburg</p>
   </section>
 
-  <script>
-    window.chatbaseConfig = {
-      chatbotId: "I5M2iu_7a2_t9b3Pav-z1", // replace this with your Chatbase chatbot ID
-    }
-  </script>
-  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
-
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({ offset: 0 });
     function hamburg() { document.querySelector(".dropdown").style.transform = "translateY(0px)"; }
     function cancel() { document.querySelector(".dropdown").style.transform = "translateY(-500px)"; }
   </script>
+  <script>
+  window.chatbaseConfig = {
+    chatbotId: "I5M2iu_7a2_t9b3Pav-z1",
+    domain: "www.chatbase.co"
+  };
+</script>
+<script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
 </body>
 </html>
