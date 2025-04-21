@@ -12,14 +12,16 @@
 <body>
   <nav>
     <div class="nav-container">
-      <div class="logo" data-aos="zoom-in">Keanu</div>
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Keanu</span>
+      </div>
       <div class="links">
-        <div class="link"><a href="#">Home</a></div>
-        <div class="link"><a href="#about">About</a></div>
-        <div class="link"><a href="#skills">Skills</a></div>
-        <div class="link"><a href="#experience">Experience</a></div>
-        <div class="link"><a href="#projects">Projects</a></div>
-        <div class="link contact-btn"><a href="#contact">Contact</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#experience">Experience</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#projects">Projects</a></div>
+        <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact</a></div>
       </div>
       <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
     </div>
@@ -38,24 +40,24 @@
 
   <section>
     <div class="main-container">
-      <div class="image" data-aos="zoom-in-right">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
         <img src="main.png.jpeg" alt="Keanu Moodley">
       </div>
       <div class="content">
-        <h1 data-aos="fade-left">Hey, I'm <span>Keanu Moodley</span></h1>
-        <div class="typewriter" data-aos="fade-right">I'm a <span></span></div>
-        <p data-aos="flip-up">
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Keanu Moodley</span></h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+        <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
           Hardworking and eager-to-learn Web Developer and Technical Support professional with a strong foundation in computer science. 
           Passionate about problem-solving, innovation, and continuous learning. Experienced in web development, technical support, and sales. 
           Enthusiastic about technology, gaming, and the automotive industry. Committed to applying my skills to develop innovative software solutions 
-          and improve user experiences.
+          and improve user experiences. Highly adaptable and quick to learn new technologies, with a keen interest in continuous professional development.
         </p>
-        <div class="social-links" data-aos="flip-down">
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
           <a href="#"><i class="fa-brands fa-github"></i></a>
           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
-        <div class="btn" data-aos="zoom-out-left">
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
           <a href="Keanu_Moodley_CV.pdf" download><button>Download CV</button></a>
         </div>
       </div>
@@ -64,8 +66,8 @@
 
   <section id="about">
     <h2>Education</h2>
-    <p><strong>University of South Africa (UNISA)</strong> | Bachelor of Science in Computing (2022 - 2024)<br>
-    Courses: Theoretical Computer Science, Java, Python, Web Development, Databases, AI, OS, Software Project Management, Networking</p>
+    <p><strong>University of South Africa (UNISA)</strong> | Bachelor of Science in Computing (2022 - 2024)</p>
+    <p>Relevant Courses: Theoretical Computer Science, Java, Python, Web Development, Databases, Operating Systems, AI, Object-Oriented Analysis, Software Project Management, Networking</p>
     <p><strong>Kingsway High School</strong> | Graduated 2020 with Bachelor’s Pass</p>
   </section>
 
@@ -83,23 +85,33 @@
 
   <section id="experience">
     <h2>Work Experience</h2>
-    <p><strong>Onyx Logistics – Web Developer & Technical Support (Jan 2024 – Present)</strong><br>
-    Designed and maintained website, optimized performance, SEO, security, and integrated new features with management.</p>
-
-    <p><strong>Durban Lubricants – Sales Representative (Aug 2023 – Feb 2024)</strong><br>
-    Grew client base, conducted market research, negotiated contracts, increased sales, and honed communication skills.</p>
+    <p><strong>Onyx Logistics – Web Developer & Technical Support (Jan 2024 – Present)</strong></p>
+    <ul>
+      <li>Designed, developed, and maintained the company’s website</li>
+      <li>Provided technical support for internal and external users</li>
+      <li>Implemented security measures to prevent cyber threats</li>
+      <li>Improved SEO rankings and website speed</li>
+      <li>Worked closely with management to enhance functionality</li>
+    </ul>
+    <p><strong>Durban Lubricants – Sales Representative (Aug 2023 – Feb 2024)</strong></p>
+    <ul>
+      <li>Expanded customer base and grew sales</li>
+      <li>Conducted market research and identified opportunities</li>
+      <li>Delivered persuasive product demonstrations</li>
+      <li>Negotiated contracts and ensured client satisfaction</li>
+    </ul>
   </section>
 
   <section id="projects">
     <h2>Projects & Achievements</h2>
     <ul>
-      <li><strong>Onyx Logistics Website:</strong> Full development for car leasing with booking/payment integration.</li>
-      <li><strong>Sales Achievement:</strong> Exceeded targets, increased revenue and retention at Durban Lubricants.</li>
+      <li><strong>Onyx Logistics Website:</strong> Built a fully functional car leasing site with payment and booking features</li>
+      <li><strong>Durban Lubricants:</strong> Exceeded sales targets and built strong client relationships</li>
     </ul>
   </section>
 
   <section id="contact">
-    <h2>Contact Me</h2>
+    <h2>Contact</h2>
     <p>Email: <a href="mailto:keanumoodley8@gmail.com">keanumoodley8@gmail.com</a></p>
     <p>Phone: 081 463 0569</p>
     <p>Location: Sandton, Johannesburg</p>
