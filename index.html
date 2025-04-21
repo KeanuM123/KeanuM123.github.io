@@ -1,27 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Keanu Moodley Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <nav>
     <div class="nav-container">
-      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
-        <span>Keanu</span>
-      </div>
+      <div class="logo" data-aos="zoom-in"><span>Keanu</span></div>
       <div class="links">
-        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
-        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
-        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
-        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#experience">Experience</a></div>
-        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#projects">Projects</a></div>
-        <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact</a></div>
+        <div class="link"><a href="#">Home</a></div>
+        <div class="link"><a href="#about">About</a></div>
+        <div class="link"><a href="#skills">Skills</a></div>
+        <div class="link"><a href="#experience">Experience</a></div>
+        <div class="link"><a href="#projects">Projects</a></div>
+        <div class="link contact-btn"><a href="#contact">Contact</a></div>
       </div>
       <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
     </div>
@@ -40,100 +37,78 @@
 
   <section>
     <div class="main-container">
-      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
-      <img src="main.png.jpeg" alt="Keanu Moodley" style="width: 100%; max-width: 500px;">
+      <div class="image" data-aos="zoom-in-right">
+        <img src="main.png.jpeg" alt="Keanu Moodley" style="width: 100%; max-width: 700px; border-radius: 10px; box-shadow: 0 0 30px rgba(255,255,255,0.2);" />
       </div>
       <div class="content">
-        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Keanu Moodley</span></h1>
-        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
-        <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+        <h1 data-aos="fade-left">Hey I'm <span>Keanu Moodley</span></h1>
+        <div class="typewriter" data-aos="fade-right">I'm a <span></span></div>
+        <p data-aos="flip-up">
           Hardworking and eager-to-learn Web Developer and Technical Support professional with a strong foundation in computer science. 
           Passionate about problem-solving, innovation, and continuous learning. Experienced in web development, technical support, and sales. 
           Enthusiastic about technology, gaming, and the automotive industry. Committed to applying my skills to develop innovative software solutions 
-          and improve user experiences. Highly adaptable and quick to learn new technologies, with a keen interest in continuous professional development.
+          and improve user experiences.
         </p>
-        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+        <div class="social-links" data-aos="flip-down">
           <a href="#"><i class="fa-brands fa-github"></i></a>
           <a href="#"><i class="fa-brands fa-linkedin"></i></a>
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
-        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+        <div class="btn" data-aos="zoom-out-left">
           <a href="Keanu_Moodley_CV.pdf" download><button>Download CV</button></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about">
-    <h2>Education</h2>
-    <p><strong>University of South Africa (UNISA)</strong> | Bachelor of Science in Computing (2022 - 2024)</p>
-    <p>Relevant Courses: Theoretical Computer Science, Java, Python, Web Development, Databases, Operating Systems, AI, Object-Oriented Analysis, Software Project Management, Networking</p>
-    <p><strong>Kingsway High School</strong> | Graduated 2020 with Bachelor’s Pass</p>
+  <section id="about"><h2 data-aos="fade-up">Education</h2>
+    <p data-aos="fade-up">University of South Africa (UNISA) | BSc in Computing (2022 - 2024)<br/>
+    Relevant Courses: Java, Python, Databases, AI, Web Dev, Networking, etc.</p>
+    <p data-aos="fade-up">Kingsway High School | Bachelor's Pass (2020)</p>
   </section>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>Programming: Python, C++, Java</li>
-      <li>Web Development: HTML, CSS, WordPress, Bluehost</li>
+  <section id="skills"><h2 data-aos="fade-up">Technical Skills</h2>
+    <ul data-aos="fade-up">
+      <li>Python, C++, Java</li>
+      <li>HTML, CSS, WordPress</li>
+      <li>SQL, MySQL</li>
       <li>Technical Support</li>
-      <li>Databases: MySQL, SQL</li>
-      <li>Software Development: OOP</li>
       <li>Cloud: Google Cloud</li>
     </ul>
   </section>
 
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <p><strong>Onyx Logistics – Web Developer & Technical Support (Jan 2024 – Present)</strong></p>
-    <ul>
-      <li>Designed, developed, and maintained the company’s website</li>
-      <li>Provided technical support for internal and external users</li>
-      <li>Implemented security measures to prevent cyber threats</li>
-      <li>Improved SEO rankings and website speed</li>
-      <li>Worked closely with management to enhance functionality</li>
-    </ul>
-    <p><strong>Durban Lubricants – Sales Representative (Aug 2023 – Feb 2024)</strong></p>
-    <ul>
-      <li>Expanded customer base and grew sales</li>
-      <li>Conducted market research and identified opportunities</li>
-      <li>Delivered persuasive product demonstrations</li>
-      <li>Negotiated contracts and ensured client satisfaction</li>
+  <section id="experience"><h2 data-aos="fade-up">Work Experience</h2>
+    <p data-aos="fade-up"><strong>Onyx Logistics – Web Dev & Tech Support (2024–Present)</strong></p>
+    <ul><li>Built & secured full site, optimized for SEO</li></ul>
+    <p><strong>Durban Lubricants – Sales Rep (2023–2024)</strong></p>
+    <ul><li>Boosted client retention & revenue</li></ul>
+  </section>
+
+  <section id="projects"><h2 data-aos="fade-up">Projects & Achievements</h2>
+    <ul data-aos="fade-up">
+      <li>Onyx Website with booking & payment system</li>
+      <li>Exceeded sales at Durban Lubricants</li>
     </ul>
   </section>
 
-  <section id="projects">
-    <h2>Projects & Achievements</h2>
-    <ul>
-      <li><strong>Onyx Logistics Website:</strong> Built a fully functional car leasing site with payment and booking features</li>
-      <li><strong>Durban Lubricants:</strong> Exceeded sales targets and built strong client relationships</li>
+  <section id="interests"><h2 data-aos="fade-up">Interests</h2>
+    <ul data-aos="fade-up">
+      <li>Gaming</li>
+      <li>Automotive Software</li>
+      <li>AI & Innovation</li>
     </ul>
   </section>
-<section id="interests">
-  <h2>Interests</h2>
-  <ul>
-    <li>Gaming (PC and Console) – Interested in game development and interactive design</li>
-    <li>Cars & Automotive Technology – Passion for car engineering and software integration in vehicles</li>
-    <li>Software Development & Innovation – Always exploring new programming techniques and tools</li>
-    <li>Artificial Intelligence & Machine Learning – Keen on understanding AI-driven solutions and their applications</li>
-  </ul>
-</section>
 
-<section id="soft-skills">
-  <h2>Soft Skills</h2>
-  <ul>
-    <li>Problem-Solving and Critical Thinking</li>
-    <li>Strong Communication and Sales Expertise</li>
-    <li>Time Management and Organization</li>
-    <li>Adaptability and Willingness to Learn</li>
-    <li>Team Collaboration and Leadership</li>
-    <li>Attention to Detail and Creativity</li>
-  </ul>
-</section>
+  <section id="soft-skills"><h2 data-aos="fade-up">Soft Skills</h2>
+    <ul data-aos="fade-up">
+      <li>Problem-Solving</li>
+      <li>Communication</li>
+      <li>Time Management</li>
+    </ul>
+  </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:keanumoodley8@gmail.com">keanumoodley8@gmail.com</a></p>
+  <section id="contact"><h2 data-aos="fade-up">Contact</h2>
+    <p data-aos="fade-up">Email: keanumoodley8@gmail.com</p>
     <p>Phone: 081 463 0569</p>
     <p>Location: Sandton, Johannesburg</p>
   </section>
@@ -141,8 +116,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({ offset: 0 });
-    function hamburg(){ document.querySelector(".dropdown").style.transform = "translateY(0px)"; }
-    function cancel(){ document.querySelector(".dropdown").style.transform = "translateY(-500px)"; }
+    function hamburg() { document.querySelector(".dropdown").style.transform = "translateY(0px)"; }
+    function cancel() { document.querySelector(".dropdown").style.transform = "translateY(-500px)"; }
   </script>
 </body>
 </html>
