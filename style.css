@@ -9,11 +9,15 @@ body {
   background: linear-gradient(to right, #000, #333);
   color: #fff;
 }
-nav, .nav-container {
+nav {
+  width: 100%;
   height: 10vh;
+}
+.nav-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
 }
 .logo {
   font-size: 2rem;
@@ -85,7 +89,8 @@ h2::after {
   margin: 10px auto;
 }
 ul li {
-  margin: 10px 0;
+  margin: 15px 0;
+  line-height: 1.8;
 }
 .social-links i {
   margin: 0 10px;
@@ -103,4 +108,23 @@ ul li {
   background: black;
   color: white;
   box-shadow: 0 0 10px #ccc;
+}
+.inline-typewriter::before {
+  content: "Developer";
+  animation: words 8s infinite;
+}
+.inline-typewriter::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 2px solid white;
+  animation: cursor 0.6s linear infinite;
+}
+@keyframes words {
+  0%, 49% { content: "Developer"; }
+  50%, 100% { content: "Designer"; }
+}
+@keyframes cursor {
+  to { border-color: transparent; }
 }
